@@ -28,6 +28,7 @@ const SourceCodes = () => {
                     <span>    text-shadow: </span><small>{state.textShadow.x}px {state.textShadow.y}px {state.textShadow.blur}px {state.textShadow.color}; </small> <br />
                     {'}'}
                 </pre>
+            </section>
                 <button className={"copy"}
                 onClick={() => {
                     let textarea = document.createElement("textarea");
@@ -41,7 +42,6 @@ const SourceCodes = () => {
                     setTimeout(() => setCopy("Copy"), 2000);
                 }}
                 >{copy} To Clipboard</button>
-            </section>
         </div>
    );
 };

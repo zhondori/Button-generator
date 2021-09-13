@@ -16,8 +16,15 @@ body {
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(60deg, #1e64c0 50%, #1450a0 50%);
-  overflow: hidden;
 }
-input {
+body::-webkit-scrollbar {
+  background: #7FC8A9;
+}
+body::-webkit-scrollbar-thumb {
+  background: #3D84B8;
+}
+input,
+select {
   outline: none;
+  border: none;
 }

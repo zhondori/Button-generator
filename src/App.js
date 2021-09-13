@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Button from "./Button/Button";
+import Footer from "./Footer/Footer";
 import Settings from "./Settings/Settings";
 import SourceCodes from "./SourceCodes/SourceCodes";
 
@@ -13,6 +14,7 @@ function App() {
         <Button />
         <SourceCodes />
         </main>
+        <Footer />
     </div>
   );
 }
