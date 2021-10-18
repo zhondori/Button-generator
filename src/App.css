@@ -227,12 +227,15 @@ footer p a:hover {
 
 @media (max-width: 576px) {
     main {
-      grid-template-columns: 100% !important;
+      grid-template-columns: 1fr !important;
       row-gap: 20px;
       padding: 20px 5px;
       margin: 0 auto;
       margin-top: 30px;
       height: auto;
+    }
+    main > div {
+      width: 100% !important;
     }
     footer p {
       font-size: 14px;
